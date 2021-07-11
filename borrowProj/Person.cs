@@ -15,6 +15,7 @@ namespace borrowProj
         {
             this.name = name;
             this.captial = money;
+            this.next = null;
         }
         private bool decuction(int money)
         {
